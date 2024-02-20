@@ -44,13 +44,16 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.logo:hover {
+.logo:hover,
+.links:hover {
   color: #404bbf;
 }
-.logo:focus {
+.logo:focus,
+.links:focus {
   color: #404bbf;
 }
-.logo:active {
+.logo:active,
+.links:active {
   color: #404bbf;
 }
 .logo {
@@ -60,7 +63,7 @@ ul {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .first-section {
   background-color: #2e2f42;
