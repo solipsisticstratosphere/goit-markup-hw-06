@@ -15,13 +15,14 @@ h1 {
   color: white;
   text-align: center;
 }
-h2 {
+.head2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  color: #2e2f42;
 }
 .head {
   font-weight: 500;
@@ -89,8 +90,17 @@ ul {
 .features p,
 .team-people p,
 .portfolio p {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
+
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.paragrafs {
+  font-size: 16px;
+  font-weight: 400;
+
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
@@ -115,4 +125,7 @@ ul {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.webstudio {
+  color: #2e2f42;
 }
