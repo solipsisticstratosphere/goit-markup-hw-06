@@ -3,7 +3,7 @@ body {
   color: #434455;
   font-family: 'Roboto', sans-serif;
 }
-footer {
+.footer-class {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
@@ -15,7 +15,7 @@ h1 {
   color: white;
   text-align: center;
 }
-.head2 {
+.head_head {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -126,6 +126,9 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.webstudio {
+.webstudio_bot {
+  color: #f4f4fd;
+}
+.webstudio_top {
   color: #2e2f42;
 }
