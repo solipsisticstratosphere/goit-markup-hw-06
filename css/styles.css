@@ -42,18 +42,38 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+.info li a:hover {
+  color: #404bbf;
+}
+.info li a:active {
+  color: #404bbf;
+}
+.address-links {
   color: #434455;
 }
 .logo:hover,
-.links:hover {
+.links:hover,
+.address-links:hover {
   color: #404bbf;
 }
 .logo:focus,
-.links:focus {
+.links:focus,
+.address-links:focus {
   color: #404bbf;
 }
 .logo:active,
-.links:active {
+.links:active,
+.address-links:active {
   color: #404bbf;
 }
 .logo {
@@ -108,20 +128,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.info {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-style: normal;
-}
-.info li a:hover {
-  color: #404bbf;
-}
-.info li a:active {
-  color: #404bbf;
-}
+
 .footer-par {
   font-weight: 400;
   font-size: 16px;
@@ -135,6 +142,6 @@ ul {
 .webstudio_top {
   color: #2e2f42;
 }
-.portfolio {
+.portfolio-pics {
   background-color: #ffffff;
 }
