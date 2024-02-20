@@ -61,6 +61,9 @@ ul {
 .address-links {
   color: #434455;
 }
+.links {
+  color: #2e2f42;
+}
 .logo:hover,
 .links:hover,
 .address-links:hover {
@@ -142,6 +145,6 @@ ul {
 .webstudio_top {
   color: #2e2f42;
 }
-.portfolio-pics {
+.team-pics {
   background-color: #ffffff;
 }
