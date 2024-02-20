@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  color: #2e2f42;
+  color: #434455;
   font-family: 'Roboto', sans-serif;
 }
 footer {
@@ -23,7 +23,7 @@ h2 {
   text-transform: capitalize;
   text-align: center;
 }
-h3 {
+.head {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -41,11 +41,15 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #434455;
 }
-.navigation li a:hover {
+.navigation ul li a:hover {
   color: #404bbf;
 }
-.navigation li a:focus {
+.navigation ul li a:focus {
+  color: #404bbf;
+}
+.navigation ul li a:active {
   color: #404bbf;
 }
 .logo {
@@ -55,6 +59,7 @@ ul {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 .first-section {
   background-color: #2e2f42;
