@@ -43,18 +43,20 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  width: 1158px;
+  padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .nav-links {
   gap: 40px;
   display: flex;
   list-style: none;
-  padding: 0;
+  padding: 24px 0;
 }
 
 .address-links {
   display: flex;
   list-style: none;
-  padding: 0;
 
   margin-right: 10px;
   margin-top: 24px;
