@@ -228,15 +228,14 @@ h1 {
 .fourth_section .head_head {
   margin-bottom: 72px;
 }
+
 .portfolio {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
 }
-.portfolio-pics {
-  width: calc((100% - 48px) / 3);
-}
+
 .apps {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -315,3 +314,6 @@ h1 {
   max-width: 264px;
 }
 /* Footer */
+.portfolio-pics {
+  width: calc((100% - 48px) / 3);
+}
