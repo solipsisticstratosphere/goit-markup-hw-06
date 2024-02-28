@@ -38,6 +38,9 @@ body {
 /* General */
 
 /* Header */
+.header_1 {
+  border-bottom: 1px solid #e7e9fc;
+}
 header .container {
   height: inherit;
   display: flex;
@@ -45,21 +48,20 @@ header .container {
   align-content: center;
   width: 1158px;
   padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
+
+  margin: 0 auto;
 }
 .nav-links {
   gap: 40px;
   display: flex;
   list-style: none;
-  padding: 24px 0;
 }
 
 .address-links {
   display: flex;
   list-style: none;
-
+  padding: 24px 0;
   margin-right: 10px;
-  margin-top: 24px;
 }
 .navigation {
   font-weight: 500;
