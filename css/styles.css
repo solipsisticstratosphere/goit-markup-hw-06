@@ -4,10 +4,12 @@
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 h1,
 h2,
@@ -175,7 +177,7 @@ h1 {
   display: flex;
   gap: 24px;
 }
-.features .paragrafs {
+.li_features {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .head {
