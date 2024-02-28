@@ -93,9 +93,8 @@ header .container {
   font-style: normal;
   display: flex;
   gap: 40px;
-
-  align-self: center;
   padding: 24px 0;
+  align-self: center;
 }
 
 .info li a:hover {
@@ -119,6 +118,9 @@ header .container {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-right: 76px;
+}
+.nav-links .links {
+  padding: 24px 0;
 }
 /* Header */
 
