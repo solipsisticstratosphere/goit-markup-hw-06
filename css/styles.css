@@ -314,6 +314,6 @@ h1 {
   max-width: 264px;
 }
 /* Footer */
-.portfolio-pics {
+.portfolio-pics-s {
   width: calc((100% - 48px) / 3);
 }
