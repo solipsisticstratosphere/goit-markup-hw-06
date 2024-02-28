@@ -217,6 +217,33 @@ h1 {
   text-align: center;
 }
 /* 3D section */
+
+/* 4TH section */
+.fourth_section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.fourth_section .head_head {
+  margin-bottom: 72px;
+}
+.portfolio {
+  display: flex;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+.portfolio-pics {
+  width: calc((100% - 48px) / 3);
+}
+.apps {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.apps .head {
+  margin-bottom: 8px;
+}
+/* 4TH section */
 .logo:hover,
 .links:hover,
 .address-links:hover {
@@ -269,13 +296,20 @@ h1 {
 .footer-class {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
 }
-
+.footer-class .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-par {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 /* Footer */
