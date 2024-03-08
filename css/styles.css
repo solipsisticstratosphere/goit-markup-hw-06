@@ -405,7 +405,18 @@ h1 {
 .footer-right-box {
   width: 208px;
   height: 80px;
+  margin-left: 120px;
 }
-.footer-right {
+.footer-right-box p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.footer-right-box .icons-links {
+  gap: 16px;
+  padding-left: 0;
 }
 /* Footer */
