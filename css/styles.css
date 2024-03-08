@@ -399,4 +399,13 @@ h1 {
 .logo-footer {
   margin-bottom: 16px;
 }
+.footer-class .container {
+  display: flex;
+}
+.footer-right-box {
+  width: 208px;
+  height: 80px;
+}
+.footer-right {
+}
 /* Footer */
