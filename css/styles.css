@@ -55,6 +55,8 @@ body {
 /* Header */
 .header_h {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 header .container {
   height: inherit;
@@ -67,12 +69,15 @@ header .container {
   margin: 0 auto;
 }
 .nav-links {
+  color: #404bbf;
+  position: relative;
   gap: 40px;
   display: flex;
   list-style: none;
 }
 
 .address-links {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   list-style: none;
   margin-right: 10px;
@@ -122,6 +127,7 @@ header .container {
   margin-right: 76px;
 }
 .nav-links .links {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
 }
 .test {
@@ -162,7 +168,9 @@ header .container {
     url('/images/people-office.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: contain;
+
+  max-width: 1440px;
+  background-size: cover;
 }
 h1 {
   font-weight: 700;
@@ -190,6 +198,7 @@ h1 {
   border-radius: 4px;
   margin: 20px auto;
   margin-top: 48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ordering:hover {
   background-color: #404bbf;
@@ -220,6 +229,7 @@ h1 {
   margin-bottom: 8px;
 }
 .features-box {
+  margin-bottom: 8px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -251,6 +261,8 @@ h1 {
   gap: 24px;
 }
 .team-pics {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
