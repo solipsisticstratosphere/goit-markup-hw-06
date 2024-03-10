@@ -73,16 +73,12 @@ header .container {
   display: flex;
   list-style: none;
 }
-.mail {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.tel {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .address-links {
   display: flex;
   list-style: none;
   margin-right: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation {
   font-weight: 500;
@@ -148,6 +144,7 @@ header .container {
   position: absolute;
   bottom: -1px;
   left: 0;
+  background-color: #404bbf;
 }
 .links:active {
   color: #404bbf;
