@@ -364,8 +364,9 @@ h1 {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-pics:hover {
+.portfolio-pics:hover .overlay-par {
   transform: translateY(0%);
+  color: var(--text-color);
 }
 /* 4TH section */
 .logo:hover,
