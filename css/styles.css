@@ -73,9 +73,13 @@ header .container {
   display: flex;
   list-style: none;
 }
-
-.address-links {
+.mail {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tel {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address-links {
   display: flex;
   list-style: none;
   margin-right: 10px;
@@ -127,22 +131,22 @@ header .container {
 .nav-links .links {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .test {
   position: relative;
 }
-.nav-links li {
-  position: relative;
-}
 
-.nav-links li::after {
+.nav-links .links::after {
   content: '';
   display: block;
   border-bottom: 4px solid #404bbf;
   border-radius: 2px;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
 }
 .links:active {
