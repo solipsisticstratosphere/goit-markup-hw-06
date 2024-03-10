@@ -331,14 +331,11 @@ h1 {
   position: relative;
   overflow: hidden;
 }
-.overlay-par {
-}
 
-.overlay {
-}
 .portfolio-pics:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 .portfolio-pics:hover .overlay {
   transform: translateY(0%);
@@ -351,16 +348,6 @@ h1 {
 .apps .head {
   margin-bottom: 8px;
 }
-.portfolio-pics .overlay {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  padding: 40px 32px;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .overlay-par {
   position: absolute;
@@ -372,9 +359,12 @@ h1 {
   letter-spacing: 0.02em;
   width: 100%;
   height: 100%;
+  background-color: #4d5ae5;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-pics:hover .overlay {
+.portfolio-pics:hover {
   transform: translateY(0%);
 }
 /* 4TH section */
