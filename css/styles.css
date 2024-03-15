@@ -767,6 +767,7 @@ h1 {
   color: rgba(46, 47, 66, 0.4);
   outline: transparent;
   resize: none;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comment:focus {
@@ -784,6 +785,7 @@ h1 {
   margin-bottom: 24px;
 }
 .checkbox-privacy {
+  visibility: hidden;
 }
 .label-privacy {
   font-family: 'Roboto', sans-serif;
@@ -792,6 +794,7 @@ h1 {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
 }
 .span-privacy-label {
   width: 16px;
@@ -806,9 +809,18 @@ h1 {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox-privacy:checked {
+
+.span-privacy-label svg use {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-privacy:checked + .label-privacy .span-privacy-label {
   background-color: #404bbf;
   border: none;
+}
+
+.checkbox-privacy:checked + .label-privacy .span-privacy-label {
   fill: #f4f4fd;
 }
+
 /** MODAL **/
