@@ -56,15 +56,6 @@
         </div>
       </section>
 
-      <!-- <div class="backdrop"></div>
-
-      <div class="modal">
-        <form class="form" name="call-back" autocomplete="off">
-          <label class="head-label">
-            Leave your contacts and we will call you back
-          </label>
-        </form>
-      </div> -->
       <section class="second_section">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
@@ -460,5 +451,86 @@
         </div>
       </div>
     </footer>
+    <div class="modal-overlay is-open">
+      <div class="modal-form">
+        <button type="button" class="close-button">
+          <svg width="8" height="8" class="icon-close">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <p class="modal-form-title">
+          Leave your contacts and we will call you back
+        </p>
+        <div class="container-form">
+          <form class="call-back-form" name="callback">
+            <label class="label-name" for="user-name">Name </label>
+            <div class="container-input">
+              <input
+                type="text"
+                class="input-name"
+                name="user-name"
+                id="user-name"
+                autocomplete="off"
+              />
+              <svg width="18" height="24" class="icon-human">
+                <use href="./images/icons.svg#icon-human"></use>
+              </svg>
+            </div>
+            <label class="label-phone" for="telephone">Phone </label>
+            <div class="container-input">
+              <input
+                type="tel"
+                class="input-telephone"
+                name="telephone"
+                id="telephone"
+                autocomplete="off"
+              />
+              <svg width="18" height="24" class="icon-phone">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <label class="label-email" for="input-email">Email </label>
+            <div class="container-input">
+              <input
+                type="email"
+                class="input-email"
+                name="input-email"
+                id="input-email"
+                autocomplete="off"
+              />
+              <svg width="18" height="24" class="icon-mail">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+            <div class="container-text-area">
+              <label class="label-text-area" for="user-comment">Comment </label>
+              <textarea
+                class="comment"
+                id="user-comment"
+                name="user-comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+            <div class="container-checkbox">
+              <input
+                class="checkbox-privacy"
+                type="checkbox"
+                id="user-privacy"
+                name="user-privacy"
+                value="true"
+              />
+              <label class="label-privacy" for="user-privacy">
+                <span class="span-privacy-label">
+                  <svg width="10" height="8" class="icon-tick">
+                    <use href="./images/icons.svg#icon-Tick"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
