@@ -635,10 +635,13 @@ h1 {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+  line-height: 1.17;
 }
 .container-input {
-  position: relative;
   margin-bottom: 8px;
+}
+.container-human {
+  position: relative;
 }
 .input-name {
   width: 100%;
@@ -674,6 +677,9 @@ h1 {
   display: block;
   margin-bottom: 4px;
 }
+.container-phone {
+  position: relative;
+}
 .input-telephone {
   width: 100%;
   height: 40px;
@@ -705,6 +711,9 @@ h1 {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+}
+.container-mail {
+  position: relative;
 }
 .input-email {
   width: 100%;
