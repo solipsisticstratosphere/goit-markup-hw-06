@@ -125,7 +125,12 @@
           <h2 class="head_head">Our Team</h2>
           <ul class="team-people">
             <li class="team-pics">
-              <img src="./images/img-1.jpg" alt="Mark Guerrero" width="264" />
+              <img
+                srcset="./images/img-1.jpg 1x, ./images/img-3@2x.jpg 2x"
+                src="./images/img-1.jpg"
+                alt="Mark Guerrero"
+                width="264"
+              />
               <div class="cards">
                 <h3 class="head">Mark Guerrero</h3>
                 <p class="paragrafs">Product Designer</p>
@@ -162,7 +167,12 @@
               </div>
             </li>
             <li class="team-pics">
-              <img src="./images/img-2.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="./images/img-2.jpg 1x, ./images/img-2@2x.jpg 2x"
+                src="./images/img-2.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="cards">
                 <h3 class="head">Tom Ford</h3>
                 <p class="paragrafs">Frontend Developer</p>
@@ -199,7 +209,12 @@
               </div>
             </li>
             <li class="team-pics">
-              <img src="./images/img-3.jpg" alt="Camila Garcia" width="264" />
+              <img
+                srcset="./images/img-3.jpg 1x, ./images/img-1@2x.jpg 2x"
+                src="./images/img-3.jpg"
+                alt="Camila Garcia"
+                width="264"
+              />
               <div class="cards">
                 <h3 class="head">Camila Garcia</h3>
                 <p class="paragrafs">Marketing</p>
@@ -236,7 +251,12 @@
               </div>
             </li>
             <li class="team-pics">
-              <img src="./images/img-4.jpg" alt="Daniel Wilson" width="264" />
+              <img
+                srcset="./images/img-4.jpg 1x, ./images/img-4@2x.jpg 2x"
+                src="./images/img-4.jpg"
+                alt="Daniel Wilson"
+                width="264"
+              />
               <div class="cards">
                 <h3 class="head">Daniel Wilson</h3>
                 <p class="paragrafs">UI Designer</p>
@@ -282,7 +302,12 @@
           <ul class="portfolio">
             <li class="portfolio-pics">
               <div class="side-pics">
-                <img src="./images/bank.jpg" alt="Banking" width="360" />
+                <img
+                  srcset="./images/bank.jpg 1x, ./images/bank@2x.jpg 2x"
+                  src="./images/bank.jpg"
+                  alt="Banking"
+                  width="360"
+                />
                 <p class="overlay-par">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -296,7 +321,12 @@
             </li>
             <li class="portfolio-pics">
               <div class="side-pics">
-                <img src="./images/pay.jpg" alt="Cashless" width="360" />
+                <img
+                  srcset="./images/pay.jpg 1x, ./images/pay@2x.jpg 2x"
+                  src="./images/pay.jpg"
+                  alt="Cashless"
+                  width="360"
+                />
                 <p class="overlay-par">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -311,6 +341,10 @@
             <li class="portfolio-pics">
               <div class="side-pics">
                 <img
+                  srcset="
+                    ./images/meditation.jpg    1x,
+                    ./images/meditation@2x.jpg 2x
+                  "
                   src="./images/meditation.jpg"
                   alt="Meditation"
                   width="360"
@@ -328,7 +362,12 @@
             </li>
             <li class="portfolio-pics">
               <div class="side-pics">
-                <img src="./images/taxi.jpg" alt="Taxi" width="360" />
+                <img
+                  srcset="./images/taxi.jpg 1x, ./images/taxi@2x.jpg 2x"
+                  src="./images/taxi.jpg"
+                  alt="Taxi"
+                  width="360"
+                />
                 <p class="overlay-par">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -343,6 +382,7 @@
             <li class="portfolio-pics">
               <div class="side-pics">
                 <img
+                  srcset="./images/screen.jpg 1x, ./images/screen@2x.jpg 2x"
                   src="./images/screen.jpg"
                   alt="Illustrations"
                   width="360"
@@ -360,7 +400,12 @@
             </li>
             <li class="portfolio-pics">
               <div class="side-pics">
-                <img src="./images/courses.jpg" alt="Courses" width="360" />
+                <img
+                  srcset="./images/courses.jpg 1x, ./images/courses@2x.jpg 2x"
+                  src="./images/courses.jpg"
+                  alt="Courses"
+                  width="360"
+                />
                 <p class="overlay-par">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -537,6 +582,68 @@
           <button type="submit" class="send">Send</button>
         </form>
       </div>
+    </div>
+
+    <div class="menu is-open">
+      <button type="button" class="close-button close-button-menu">
+        <svg width="8" height="8" class="icon-close">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+      </button>
+      <nav class="navigation-menu">
+        <ul class="nav-links-menu">
+          <li><a class="links-menu current" href="./index.html">Studio</a></li>
+
+          <li><a class="links-menu" href="">Portfolio</a></li>
+          <li><a class="links-menu" href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="address-menu">
+        <ul class="info-menu">
+          <li>
+            <a
+              class="address-links address-menu"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="address-links address-menu" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+        <ul class="social-list-footer social-list-menu">
+          <li class="social-list-obj-footer">
+            <a href="#" class="social-link-footer">
+              <svg width="24" height="24" class="social-icon-footer">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-obj-footer">
+            <a href="#" class="social-link-footer">
+              <svg width="24" height="24" class="social-icon-footer">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-obj-footer">
+            <a href="#" class="social-link-footer">
+              <svg width="24" height="24" class="social-icon-footer">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-obj-footer">
+            <a href="#" class="social-link-footer">
+              <svg width="24" height="24" class="social-icon-footer">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
     </div>
   </body>
 </html>
