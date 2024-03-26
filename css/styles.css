@@ -1202,3 +1202,8 @@ h1 {
 .social-list-menu {
   justify-content: space-between;
 }
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
